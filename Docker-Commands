@@ -1,0 +1,37 @@
+
+    1  yum -y install docker
+    2  systemctl status docker
+    3  systemctl start docker
+    4  systemctl enable docker
+    5  systemctl status docker
+    6  docker images
+    7  docker pull amazonlinux
+    8  docker images
+    9  docker run -it --name Haseeb amazonlinux
+   10  docker stop Haseeb
+   11  docker run -itd --name Hasnain amazonlinux
+   12  docker ps -a
+   13  docker ps
+   14  docker rm -f Hasnain
+   15  docker ps
+   16  docker ps -a
+   17  docker run -itd --name Hasnain amazonlinux
+   18  docker rm -f $(ps -aq)
+   19  docker rm -f $(docker ps -aq)
+   20  docker ps -a
+   21  docker run -itd --name Hasnain amazonlinux
+   22  docker exec -it Hasnain bash
+   23  docker rm -f Hasnain
+   24  docker run -itd --name Hasnain amazonlinux
+   25  docker kill Hasnain
+   26  docker ps -a
+   27  docker rm -f Hasnain
+   28  docker rmi -f amazonlinux
+   29  docker images
+   30  ll
+   31  yum -y install git
+   32  mkdir Docker
+   33  cd Docker
+   34  git init
+   35  vim Docker-Commands
+
