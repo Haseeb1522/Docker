@@ -1,0 +1,126 @@
+[root@Docker ~]# history
+    1  hostnamectl set-hostname Docker
+    2  sudo -i
+    3  yum -y install docker
+    4  systemctl start docker
+    5  systemctl enable docker
+    6  systemctl status docker
+    7  docker -v
+    8  vim Dockerfile
+    9  docker build -t haseeb .
+   10  docker images
+   11  docker run -it --name hasnain haseeb
+   12  docker volume creat aslam
+   13  docker volume create aslam
+   14  docker volume ls
+   15  docker run -it --name family haseeb
+   16  docker rm -f family
+   17  docker ps -a
+   18  docker run -it aslam:/app/data haseeb
+   19  docker run -it -v aslam:/app/data haseeb
+   20  history
+   21  clear
+   22  docker images
+   23  docker rm -f haseeb
+   24  docker rmi -f haseeb
+   25  docker images
+   26  docker ps -a
+   27  docker rm -f hasnain
+   28  docker rm -f ecstatic-robinson
+   29  docker rm -f ecstatic_robinson
+   30  docker ps -a
+   31  docker volume ls
+   32  docker volume rm aslam
+   33  docker volume ls
+   34  clear
+   35  vim Dockerfile
+   36  docker build -t haseeb .
+   37  docker images
+   38  docker volume create family
+   39  docker volume ls
+   40  docker volume inspect family
+   41  cd /var/lib/docker/volumes/family/_data
+   42  ls
+   43  mkdir ali
+   44  ls
+   45  docker run -it --name aslam --mount source=family,destination=/family haseeb
+   46  cd ..
+   47  cd /root
+   48  ls
+   49  clear
+   50  docker volume rm aslam
+   51  docker volume rm family
+   52  docker volume
+   53  clear
+   54  docker ps -a
+   55  docker rm -f aslam
+   56  docker ps -a
+   57  docker rmi -f haseeb
+   58  docker images
+   59  clear
+   60  ls
+   61  clear
+   62  docker build -t haseeb
+   63  docker build -t haseeb .
+   64  clear
+   65  docker volume create aslam
+   66  docker run -it --name family -v aslam:/data haseeb
+   67  docker inspect volume aslam
+   68  cd /var/lib/docker/volumes/aslam/_data
+   69  ll
+   70  docker run -it --name family2 -v aslam:/data haseeb
+   71  cd /root
+   72  docker volume inspect aslam
+   73  cd /var/lib/docker/volumes/aslam/_data
+   74  ll
+   75  cd ..
+   76  cd /root
+   77  docker run -it --name hasn -v aslam:/data haseeb
+   78  history
+   79  clear
+   80  docker volume
+   81  docker volume ls
+   82  docker volume rm aslam
+   83  docker volume rm -f aslam
+   84  docker ps -a
+   85  docker rm -f hasn
+   86  docker rm -f family2
+   87  docker rm -f family
+   88  docker ps -a
+   89  docker rmi -f haseeb
+   90  docker volume rm aslam
+   91  docker volume rm family
+   92  docker ps -a
+   93  docker images
+   94  docker volume ls
+   95  clear
+   96  vim Dockerfile
+   97  clear
+   98  docker images
+   99  clear
+  100  vim Dockerfile
+  101  vim index.html
+  102  docker build -t haseeb .
+  103  docker run -itd --name hasnain -p 82:80 haseeb
+  104  docker ps -a
+  105  docker build -t haseeb:v1 .
+  106  vim index.html
+  107  docker run -itd --name hasnain2 -p 83:80 haseeb
+  108  rm -rf index.html
+  109  docker ps -a
+  110  docker rm -f $(docker ps -aq)
+  111  docker rmi -f $(docker images -a)
+  112  docker rmi -f $(docker images)
+  113  docker rmi -f $(docker images -q)
+  114  docker images
+  115  clear
+  116  ll
+  117  vim index.html
+  118  docker build -t haseeb .
+  119  docker run -itd --name hasnain -p 83:80 haseeb
+  120  rm -rf index.html
+  121  vim index.html
+  122  docker build -t haseeb2 .
+  123  docker run -itd --name hasnain2 -p 82:80 haseeb2
+  124  clear
+  125  history
