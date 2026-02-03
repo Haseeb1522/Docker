@@ -1,0 +1,69 @@
+
+[root@DP ~]# history
+    1  yum -y insatll docker
+    2  yum -y install docker
+    3  vim index.html
+    4  rm -rf *
+    5  yum -y install httpd
+    6  systemctl start httpd
+    7  systemctl enable httpd
+    8  cd /var/www/html
+    9  vim index.html
+   10  systemctl restart httpd
+   11  vim index.html
+   12  rm -rf *
+   13  vim index.html
+   14  systemctl restart httpd
+   15  rm -rf *
+   16  vim index.html
+   17  systemctl restart httpd
+   18  rm -rf *
+   19  clear
+   20  cd /root
+   21  clear
+   22  vim Dockerfile
+   23  vim index.html
+   24  docker build -t haseeb .
+   25  systemctl satuts docker
+   26  systemctl start docker
+   27  systemctl satuts docker
+   28  systemctl status docker
+   29  systemctl enable docker
+   30  docker build -t haseeb .
+   31  docker run -itd --name hasnain -p 84:80 haseeb
+   32  vim index.html
+   33  docker build -t haseeb1 .
+   34  docker run -itd --name hasnain1 -p 84:80 haseeb1
+   35  docker run -itd --name hasnain1 -p 81:80 haseeb1
+   36  docker build -t haseeb2 .
+   37  docker run -itd --name hasnain2 -p 81:80 haseeb2
+   38  clear
+   39  rm -rf *
+   40  ll
+   41  docker rmi -f (docker images -a)
+   42  docker rmi -f $(docker images -a -q)
+   43  docker stop $(docker ps -aq)
+   44  docker rm -f $(docker ps -aq)
+   45  docker rmi -f $(docker images -a -q)
+   46  docker images
+   47  clear
+   48  systemctl status docker
+   49  clear
+   50  vim Dockerfile
+   51  vim idex.html
+   52  rm -rf *
+   53  clear
+   54  yum -y install git
+   55  systemctl start git
+   56  clear
+   57  mkdir haseeb
+   58  cd haseeb
+   59  git init
+   60  vim index.html
+   61  git add index.html
+   62  git config --global user.name "Haseeb1522"
+   63  git config --global user.email "m.haseebmessi@gmail.com"
+   64  git commit -m " my app"
+   65  git remote add origin https://github.com/Haseeb1522/Haseeb-App.git
+   66  git branch -M main
+   67  git push -u origin main
